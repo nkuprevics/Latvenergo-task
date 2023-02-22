@@ -15,7 +15,7 @@ Tad nepieciešamie dati, izmantojot foreach ciklu, tiek iegūti no `$application
 Pieņemot, ka funkcijā tiek padota `string` vērtība `"A"`, vispirms tiktu pārbaudīts vai datus var iegūt no kešatmiņas. Ja tos nevar iegūt no kešatmiņas, tad tiek pārbaudīts vai tips nav `"P"` un `"A"`.
 Līdz ar to, ka tiek padots `"A"`, šī pārbaude neizpildās un `$marker` masīvs paliek bez vērtībām, tiek pieglabāts kešatmiņā un atdots no funkcijas.
 
-Ja funkcijai tiek padota string vērtība `"Z"`, tad tiek pārbaudīts vai datus var iegūt no kešatmiņas. Ja tos nevar iegūt no kešatmiņas, tad tiek pārbaudīts vai tips nav `"P"` un `"A"`.
+Ja funkcijai tiek padota `string` vērtība `"Z"`, tad tiek pārbaudīts vai datus var iegūt no kešatmiņas. Ja tos nevar iegūt no kešatmiņas, tad tiek pārbaudīts vai tips nav `"P"` un `"A"`.
 Līdz ar to, ka tiek padots `"Z"`, šī pārbaude izpildās un tiek izmantota klases funkcija `getContents()`, lai iegūtu datus no ārēja pieprasījuma. Šos datus pieglabā mainīgajā `$markers`,
 kuri arī tiek pieglabāts kešatmiņā un atdoti no funkcijas.
 
